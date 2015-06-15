@@ -1904,6 +1904,38 @@
       ],
       "catchall":true,
       "enabled":true
+    },
+    {
+      "name":"www.spotify.com",
+      "dest_addr":"www.spotify.com",
+      "modes":[
+        {
+          "port":80,
+          "mode":"http"
+        },
+        {
+          "port":443,
+          "mode":"https"
+        }
+      ],
+      "catchall":true,
+      "enabled":true
+    },
+    {
+      "name":"play.spotify.com",
+      "dest_addr":"play.spotify.com",
+      "modes":[
+        {
+          "port":80,
+          "mode":"http"
+        },
+        {
+          "port":443,
+          "mode":"https"
+        }
+      ],
+      "catchall":true,
+      "enabled":true
     }
   ]
 }
